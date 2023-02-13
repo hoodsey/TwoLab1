@@ -2,14 +2,14 @@ public class Main {
     public static void main(String[] args) {
 
         // объявление стоимости билета
-        double Cost = 7890.99;
+        double cost = 7890.99;
         // количетсво рублей для одной бонусной мили
-        int RubOneMile = 20;
+        int rubOneMile = 20;
 
         // Рассчёт количества бонусных миль
-        int BonusMile = (int)Cost / RubOneMile;
+        int bonusMile = (int) cost / rubOneMile;
         // вывод реузльтата
-        System.out.println(BonusMile  + " - Количество бонусных миль.");
+        System.out.println(bonusMile + " - Количество бонусных миль.");
 
     }
 }
